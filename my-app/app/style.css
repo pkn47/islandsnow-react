@@ -1,0 +1,32 @@
+/* Island Snow custom styles (place next to page.tsx in src/app) */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+/* Middle menu: uppercase, black, slightly larger */
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+/* Top menu icons stay gray */
+.navbar.bg-light .nav-link {
+  color: #555;
+}
+
+/* Footer */
+footer.bg-dark {
+  background-color: #292929 !important;
+}
+
+footer h6 {
+  letter-spacing: 0.05em;
+}
+
+footer li {
+  font-size: 1.05rem;
+}
