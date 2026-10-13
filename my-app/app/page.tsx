@@ -24,7 +24,6 @@ import {
   Cart,
 } from "react-bootstrap-icons";
 
-// 1. Top menu: social icons on the left, home/search/person/cart on the right
 const TopMenu = () => (
   <Navbar bg="light" expand="lg">
     <Container>
@@ -46,14 +45,12 @@ const TopMenu = () => (
   </Navbar>
 );
 
-// 2. Centered logo (put your logo file in the /public folder)
 const IslandSnowLogo = () => (
   <div className="text-center my-4">
     <Image src="/experience-islandsnow-bootstrap-logo.png" alt="Island Snow logo" fluid />
   </div>
 );
 
-// 3. Middle menu: MEN, WOMEN, KIDS, BRANDS (dropdowns) and SEARCH
 const MiddleMenu = () => (
   <Navbar expand="lg">
     <Container>
@@ -82,12 +79,10 @@ const MiddleMenu = () => (
   </Navbar>
 );
 
-// 4. Full-width picture (put your main image in /public)
 const FullWidthImage = () => (
-  <Image src="/experience-islandsnow-bootstrap-main.jpg" alt="Island Snow" fluid className="w-100" />
+  <Image src="/experience-islandsnow-bootstrap-main.png" alt="Island Snow" fluid className="w-100" />
 );
 
-// 5. Dark three-column footer
 const FooterMenu = () => (
   <footer className="bg-dark text-white py-5 px-4">
     <Row>
